@@ -25,7 +25,7 @@ const Signup = () => {
       color="black"
     >
       <h2>Sign Up Form</h2>
-      <form onSubmit={handleFormSubmit} style={{ width: '300px' }}>
+      <form onSubmit={handleFormSubmit}  style={{ width: '300px' }}>
         <TextField
           label="Name"
           variant="outlined"
