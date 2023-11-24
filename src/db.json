@@ -1,0 +1,17 @@
+{
+  "data": [
+    {
+      "username": "sanjay",
+      "email": "sanjay123",
+      "password": "123",
+      "id": 1
+    },
+    {
+      "username": "sanjay1",
+      "email": "123456@123",
+      "password": "123456",
+      "id": 2
+    }
+    
+  ]
+}

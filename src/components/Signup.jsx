@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { TextField, Button, Box } from '@mui/material';
 import { Link } from 'react-router-dom';
-
+import axios from 'axios'
 const Signup = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -10,9 +10,17 @@ const Signup = () => {
   const [confirmPassword, setConfirmPassword] = useState('');
 
   const handleFormSubmit = (event) => {
-    event.preventDefault();
-    console.log('Form submitted with:', { name, email, createPassword, confirmPassword });
-  };
+    // event.preventDefault();
+    // console.log('Form submitted with:', { name, email, createPassword, confirmPassword });
+    const api = "http://localhost:3001/data";
+    axios.post(api,
+      {
+        username:name,
+        email:email,
+        password:createPassword
+    }
+    )
+    }
 
   return (
     <Box
@@ -25,7 +33,7 @@ const Signup = () => {
       color="black"
     >
       <h2>Sign Up Form</h2>
-      <form onSubmit={handleFormSubmit}  style={{ width: '300px' }}>
+      <form style={{ width: '300px' }}>
         <TextField
           label="Name"
           variant="outlined"
@@ -64,7 +72,7 @@ const Signup = () => {
           onChange={(e) => setConfirmPassword(e.target.value)}
           InputProps={{ style: { color: 'black'} }}
         />
-        <Button type="submit" variant="text" color="primary" style={{ marginTop: '20px' }}>
+        <Button type="submit" variant="text" color="primary" style={{ marginTop: '20px' }} onClick={handleFormSubmit}>
           <Link to="/login">sign In</Link>
         </Button>
       </form>

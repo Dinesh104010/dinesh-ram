@@ -34,3 +34,27 @@
     color:silver
     ;
 }
+.vol
+{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7UcgIRyGvjiOeOOyDP403PQKVAx8tMJgzdg&usqp=CAU");
+    color:yellow;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height:100vh;
+}
+.kow
+{
+    direction: "column";
+    justify-content:"center";
+    align-items:"center"
+}
+.sanh
+{
+    background-image: url("https://i.pinimg.com/736x/93/76/82/937682649cb79ba7f9dc3a2f455d0229.jpg");
+    color:yellow;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height:flex;
+}
