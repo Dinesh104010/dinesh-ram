@@ -25,7 +25,7 @@ const Loginform = () => {
        
         setuser(name);
         navigate('/')
-        alert("Login Successfully")
+        alert("Successfully Logged in!!")
       }
       else{
         

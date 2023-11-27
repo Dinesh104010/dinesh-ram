@@ -10,8 +10,7 @@ const Signup = () => {
   const [confirmPassword, setConfirmPassword] = useState('');
 
   const handleFormSubmit = (event) => {
-    // event.preventDefault();
-    // console.log('Form submitted with:', { name, email, createPassword, confirmPassword });
+  
     const api = "http://localhost:3001/data";
     axios.post(api,
       {
