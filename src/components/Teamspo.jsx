@@ -7,6 +7,7 @@ import IconButton  from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import ShareIcon from '@mui/icons-material/Share';
+import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import { Button, Paper, Stack } from '@mui/material';
 import { Link } from 'react-router-dom';
 
@@ -30,6 +31,9 @@ export default function Teamspo()
         TIMINGKING Badminton Shuttlecock Feathers Superfine White Rackets Cork Gold Series Sturdy Structure tournaments Practice Pack of 10.
         </Typography>
       </CardContent>
+      <div style={{fontFamily:"fantasy",fontSize:"20px"}}>
+      <center>PRICE: $25 &nbsp;&nbsp;&nbsp;&nbsp;<strike>$15</strike></center> 
+      </div>
       <CardActions >
         <IconButton aria-label="add to favorites">
           <FavoriteIcon />
@@ -37,6 +41,9 @@ export default function Teamspo()
         <IconButton aria-label="share">
           <ShareIcon />
         </IconButton>
+        <IconButton color="primary" aria-label="add to shopping cart">
+        <AddShoppingCartIcon />
+      </IconButton>
        
       </CardActions>
     
@@ -54,6 +61,9 @@ export default function Teamspo()
         ib3a PRO 3U Three Piece Golf Balls Soft Urethane Cover- White 1 Dozen
         </Typography>
       </CardContent>
+      <div style={{fontFamily:"fantasy",fontSize:"20px"}}>
+      <center>PRICE: $25 &nbsp;&nbsp;&nbsp;&nbsp;<strike>$15</strike></center> 
+      </div>
       <CardActions >
         <IconButton aria-label="add to favorites">
           <FavoriteIcon />
@@ -61,6 +71,9 @@ export default function Teamspo()
         <IconButton aria-label="share">
           <ShareIcon />
         </IconButton>
+        <IconButton color="primary" aria-label="add to shopping cart">
+        <AddShoppingCartIcon />
+      </IconButton>
        
       </CardActions>
     
@@ -77,6 +90,9 @@ export default function Teamspo()
         Aurion Boxing Gloves - 1 Pair (14 Oz) | Faux Leather Everlasting Boxing Gloves | Gloves for Kickboxing, MMA, and Training - Black
         </Typography>
       </CardContent>
+      <div style={{fontFamily:"fantasy",fontSize:"20px"}}>
+      <center>PRICE: $25 &nbsp;&nbsp;&nbsp;&nbsp;<strike>$15</strike></center> 
+      </div>
       <CardActions >
         <IconButton aria-label="add to favorites">
           <FavoriteIcon />
@@ -84,6 +100,9 @@ export default function Teamspo()
         <IconButton aria-label="share">
           <ShareIcon />
         </IconButton>
+        <IconButton color="primary" aria-label="add to shopping cart">
+        <AddShoppingCartIcon />
+      </IconButton>
        
       </CardActions>
     
@@ -100,6 +119,9 @@ export default function Teamspo()
         Cable World Sports Super Archery Bow and Arrow Set with Dart Target Board, Colourful with 3 Suction Cup Tip Arrows
         </Typography>
       </CardContent>
+      <div style={{fontFamily:"fantasy",fontSize:"20px"}}>
+      <center>PRICE: $25 &nbsp;&nbsp;&nbsp;&nbsp;<strike>$15</strike></center> 
+      </div>
       <CardActions >
         <IconButton aria-label="add to favorites">
           <FavoriteIcon />
@@ -107,6 +129,9 @@ export default function Teamspo()
         <IconButton aria-label="share">
           <ShareIcon />
         </IconButton>
+        <IconButton color="primary" aria-label="add to shopping cart">
+        <AddShoppingCartIcon />
+      </IconButton>
        
       </CardActions>
     
@@ -130,6 +155,9 @@ export default function Teamspo()
 BKDT Marketing Bowling Toy Set with 10 Bottles and 2 Balls Game for Kids - Multicolor
         </Typography>
       </CardContent>
+      <div style={{fontFamily:"fantasy",fontSize:"20px"}}>
+      <center>PRICE: $25 &nbsp;&nbsp;&nbsp;&nbsp;<strike>$15</strike></center> 
+      </div>
       <CardActions >
         <IconButton aria-label="add to favorites">
           <FavoriteIcon />
@@ -137,6 +165,9 @@ BKDT Marketing Bowling Toy Set with 10 Bottles and 2 Balls Game for Kids - Multi
         <IconButton aria-label="share">
           <ShareIcon />
         </IconButton>
+        <IconButton color="primary" aria-label="add to shopping cart">
+        <AddShoppingCartIcon />
+      </IconButton>
        
       </CardActions>
     
@@ -154,6 +185,9 @@ BKDT Marketing Bowling Toy Set with 10 Bottles and 2 Balls Game for Kids - Multi
         HEAD Titanium, Graphite Nano Ti Reward Tennis Racquet Black/Red (236335)
         </Typography>
       </CardContent>
+      <div style={{fontFamily:"fantasy",fontSize:"20px"}}>
+      <center>PRICE: $25 &nbsp;&nbsp;&nbsp;&nbsp;<strike>$15</strike></center> 
+      </div>
       <CardActions >
         <IconButton aria-label="add to favorites">
           <FavoriteIcon />
@@ -161,6 +195,9 @@ BKDT Marketing Bowling Toy Set with 10 Bottles and 2 Balls Game for Kids - Multi
         <IconButton aria-label="share">
           <ShareIcon />
         </IconButton>
+        <IconButton color="primary" aria-label="add to shopping cart">
+        <AddShoppingCartIcon />
+      </IconButton>
        
       </CardActions>
     
@@ -177,6 +214,9 @@ BKDT Marketing Bowling Toy Set with 10 Bottles and 2 Balls Game for Kids - Multi
         PALM ROYAL HANDICRAFTS Wooden Handmade Foldable Magnetic Chess Board Set Wooden with Magnetic Pieces and Extra Queens for Kids and Adults (10x10 Inches, Brown)
         </Typography>
       </CardContent>
+      <div style={{fontFamily:"fantasy",fontSize:"20px"}}>
+      <center>PRICE: $25 &nbsp;&nbsp;&nbsp;&nbsp;<strike>$15</strike></center> 
+      </div>
       <CardActions >
         <IconButton aria-label="add to favorites">
           <FavoriteIcon />
@@ -184,6 +224,9 @@ BKDT Marketing Bowling Toy Set with 10 Bottles and 2 Balls Game for Kids - Multi
         <IconButton aria-label="share">
           <ShareIcon />
         </IconButton>
+        <IconButton color="primary" aria-label="add to shopping cart">
+        <AddShoppingCartIcon />
+      </IconButton>
        
       </CardActions>
     
@@ -201,6 +244,9 @@ BKDT Marketing Bowling Toy Set with 10 Bottles and 2 Balls Game for Kids - Multi
         GKI Offensive XX New Computerised Printed Cover Wooden Table Tennis Racquet (Pack of 1)
         </Typography>
       </CardContent>
+      <div style={{fontFamily:"fantasy",fontSize:"20px"}}>
+      <center>PRICE: $25 &nbsp;&nbsp;&nbsp;&nbsp;<strike>$15</strike></center> 
+      </div>
       <CardActions >
         <IconButton aria-label="add to favorites">
           <FavoriteIcon />
@@ -208,6 +254,9 @@ BKDT Marketing Bowling Toy Set with 10 Bottles and 2 Balls Game for Kids - Multi
         <IconButton aria-label="share">
           <ShareIcon />
         </IconButton>
+        <IconButton color="primary" aria-label="add to shopping cart">
+        <AddShoppingCartIcon />
+      </IconButton>
        
       </CardActions>
     
@@ -229,6 +278,9 @@ BKDT Marketing Bowling Toy Set with 10 Bottles and 2 Balls Game for Kids - Multi
         TANSO TSUYO 44 Full Graphite High Performance Ultra Light Carbon Fibre Strung Tennis Racquet with Free Full Tennis Racket Cover (260 Grams, Oval Head Shape, 100 sq inch, Full Size) (Slate Grey)
         </Typography>
       </CardContent>
+      <div style={{fontFamily:"fantasy",fontSize:"20px"}}>
+      <center>PRICE: $25 &nbsp;&nbsp;&nbsp;&nbsp;<strike>$15</strike></center> 
+      </div>
       <CardActions >
         <IconButton aria-label="add to favorites">
           <FavoriteIcon />
@@ -236,6 +288,9 @@ BKDT Marketing Bowling Toy Set with 10 Bottles and 2 Balls Game for Kids - Multi
         <IconButton aria-label="share">
           <ShareIcon />
         </IconButton>
+        <IconButton color="primary" aria-label="add to shopping cart">
+        <AddShoppingCartIcon />
+      </IconButton>
        
       </CardActions>
     
@@ -253,6 +308,9 @@ BKDT Marketing Bowling Toy Set with 10 Bottles and 2 Balls Game for Kids - Multi
         Stag Iconic Nylon Table Tennis (T.T) Cotton Net Only| Quick Easy Setup, Cotton Mesh Net| Indoor & Outdoor Compatible on Standard Size Table| Snap-On Ping Pong Table Net Only
         </Typography>
       </CardContent>
+      <div style={{fontFamily:"fantasy",fontSize:"20px"}}>
+      <center>PRICE: $25 &nbsp;&nbsp;&nbsp;&nbsp;<strike>$15</strike></center> 
+      </div>
       <CardActions >
         <IconButton aria-label="add to favorites">
           <FavoriteIcon />
@@ -260,6 +318,9 @@ BKDT Marketing Bowling Toy Set with 10 Bottles and 2 Balls Game for Kids - Multi
         <IconButton aria-label="share">
           <ShareIcon />
         </IconButton>
+        <IconButton color="primary" aria-label="add to shopping cart">
+        <AddShoppingCartIcon />
+      </IconButton>
        
       </CardActions>
     
@@ -276,6 +337,9 @@ BKDT Marketing Bowling Toy Set with 10 Bottles and 2 Balls Game for Kids - Multi
         AMZ SPORTS NETS HDPE Lawn Tennis Net Tournament Quality with Wire Rope (2MM - Single)
         </Typography>
       </CardContent>
+      <div style={{fontFamily:"fantasy",fontSize:"20px"}}>
+      <center>PRICE: $25 &nbsp;&nbsp;&nbsp;&nbsp;<strike>$15</strike></center> 
+      </div>
       <CardActions >
         <IconButton aria-label="add to favorites">
           <FavoriteIcon />
@@ -283,6 +347,9 @@ BKDT Marketing Bowling Toy Set with 10 Bottles and 2 Balls Game for Kids - Multi
         <IconButton aria-label="share">
           <ShareIcon />
         </IconButton>
+        <IconButton color="primary" aria-label="add to shopping cart">
+        <AddShoppingCartIcon />
+      </IconButton>
        
       </CardActions>
     
@@ -299,6 +366,9 @@ BKDT Marketing Bowling Toy Set with 10 Bottles and 2 Balls Game for Kids - Multi
         Boldfit Tennis Ball Cricket Tennis Ball Light Tennis Ball for Cricket Tournament, Street Match Cricket Ball Tennis for Lawn Cricket Soft Tennis Balls for Playing Pacer Cricket Ball - Green Pack of 3
         </Typography>
       </CardContent>
+      <div style={{fontFamily:"fantasy",fontSize:"20px"}}>
+      <center>PRICE: $25 &nbsp;&nbsp;&nbsp;&nbsp;<strike>$15</strike></center> 
+      </div>
       <CardActions >
         <IconButton aria-label="add to favorites">
           <FavoriteIcon />
@@ -306,6 +376,9 @@ BKDT Marketing Bowling Toy Set with 10 Bottles and 2 Balls Game for Kids - Multi
         <IconButton aria-label="share">
           <ShareIcon />
         </IconButton>
+        <IconButton color="primary" aria-label="add to shopping cart">
+        <AddShoppingCartIcon />
+      </IconButton>
        
       </CardActions>
     

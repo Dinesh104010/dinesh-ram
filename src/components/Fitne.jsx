@@ -8,7 +8,6 @@ import Typography from '@mui/material/Typography';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import ShareIcon from '@mui/icons-material/Share';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
-
 import { Button, Paper, Stack } from '@mui/material';
 import { Link } from 'react-router-dom';
 
@@ -55,10 +54,9 @@ export default function Fitne()
       
       <CardMedia component="img"
        height="300px" 
-       image="https://i.pinimg.com/474x/9b/99/0b/9b990b0be7feeec803d62755478967fc.jpg
-       "
-
+       image="https://i.pinimg.com/474x/9b/99/0b/9b990b0be7feeec803d62755478967fc.jpg"
       />
+
       <CardContent>
         <Typography variant="body2" color="black">
         ib3a PRO 3U Three Piece Golf Balls Soft Urethane Cover- White 1 Dozen

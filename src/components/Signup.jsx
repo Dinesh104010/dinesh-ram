@@ -18,8 +18,9 @@ const Signup = () => {
         username:name,
         email:email,
         password:createPassword
-    }
-    )
+      }
+      )
+      alert("sign in successfully")
     }
 
   return (
@@ -62,19 +63,13 @@ const Signup = () => {
           onChange={(e) => setCreatePassword(e.target.value)}
           InputProps={{ style: { color: 'black' } }}
         />
-        <TextField
-          label="Confirm Password"
-          variant="outlined"
-          margin="normal"
-          fullWidth
-          type="password"
-          value={confirmPassword}
-          onChange={(e) => setConfirmPassword(e.target.value)}
-          InputProps={{ style: { color: 'black'} }}
-        />
+      
         <Button type="submit" variant="text" color="primary" style={{ marginTop: '20px' }} onClick={handleFormSubmit}>
           <Link to="/login">sign In</Link>
+          
         </Button>
+        
+
       </form>
     </Box>
   );

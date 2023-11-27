@@ -2,8 +2,16 @@ import React from 'react';
 import { Button,Card,CardActionArea,Container,Grid,Paper,Stack,TextField } from '@mui/material';
 import { Link, useNavigate } from 'react-router-dom';
 import "./FeaturedBrands.css";
+import InstagramIcon from '@mui/icons-material/Instagram';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import GoogleIcon from '@mui/icons-material/Google';
+import { useContext } from 'react';
+import { userContext } from './Context';
+
 
 const Home = () => {
+  const [user, setuser] = useContext(userContext);
   const navigate = useNavigate();
   const handleLoginClick = () => {
     navigate('/login');
@@ -11,11 +19,13 @@ const Home = () => {
 
   return (
     <>
-    <div style={{ height: '100vh', backgroundRepeat: 'no-repeat', backgroundSize: '100%', backgroundImage: "URL('https://wallpaperaccess.com/full/1767861.jpg')", position: 'relative' }}>
+    <div style={{ height: '100vh', backgroundRepeat: 'no-repeat', backgroundSize: '100%', backgroundImage: "URL('https://images.unsplash.com/photo-1542652694-40abf526446e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')", position: 'relative' }}>
       
       <div style={{ position: 'absolute', top: '20px', left: '20px', display: 'flex', alignItems: 'center' }}>
         
-        <h1 style={{ color: 'silver', fontSize: '71px' }}>ATHENS SPORTS</h1>
+      <h1 style={{ color: '#B80000', fontSize: '71px',fontFamily:'viner hand itc' }}>ATHENS &nbsp;</h1>
+        <h1 style={{ color: '#F0F0F0', fontSize: '35px',fontFamily:'segoe script' }}> sports emporium </h1>
+
       </div>
 
       <Stack direction="row-reverse" spacing={2} style={{ padding: '20px' }}>
@@ -25,10 +35,11 @@ const Home = () => {
         </Link>
         <TextField variant="outlined" label="Search" style={{ backgroundColor: 'white' ,height:"40px"}} />
 
-        <Link to="/login">
+        <Link to="/login" >
         <Button variant="contained" color="primary" style={{backgroundColor:'#787878'}} onClick={handleLoginClick}>
-          Login
+          Login 
         </Button>
+        <h2 style={{ color: '#F0F0F0', fontSize: '35px',fontFamily:'segoe script' }}>   {user}</h2>
         </Link>
         
         <Link to="/about">
@@ -133,8 +144,22 @@ const Home = () => {
            <div style={{color:'black'}}>
             <footer>
             <center>
-              <h2>&copy;ATHENS SPORTS SHOP</h2>
-              <span>&#169;SPORTS WORLD</span>
+              <h2>&copy;ATHENS SPORTS SHOP</h2><br></br>
+              Get connected with us on social networks:
+              <div>
+                <a href='https://instagram.com/sports_emporium_official?igshid=MTNiYzNiMzkwZA=='>
+                  <InstagramIcon sx={{fontSize:"50px",color:""}}></InstagramIcon>&nbsp;&nbsp;
+                </a>
+                <a href='https://www.flipkart.com/'>
+                  <FacebookIcon sx={{fontSize:"50px",color:""}}></FacebookIcon>&nbsp;&nbsp;
+                  </a>
+                  <a href='https://shop.teamsg.in/'>
+                    <TwitterIcon sx={{fontSize:"50px",color:""}}></TwitterIcon>&nbsp;&nbsp;
+                  </a>
+                  <a href='https://anime-world.in/'>
+                    <GoogleIcon sx={{fontSize:"50px",color:""}}></GoogleIcon>
+                  </a>
+              </div>
             </center>
             </footer>
            </div>

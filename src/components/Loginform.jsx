@@ -3,26 +3,34 @@ import React, { useState } from 'react';
 import { TextField, Button, Box } from '@mui/material';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios'
+import { useContext } from 'react';
+
+import { userContext } from './Context';
+
 const Loginform = () => {
   const navigate = useNavigate();
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  // const [errorMessage, seterrorMessage] = useState(false);
-
+   
+   const [user, setuser] = useContext(userContext);
   const handleFormSubmit = async (e) => {
+
     e.preventDefault();
-    // console.log('Form submitted with:', { name, email, password });
+     console.log('Form submitted with:', { name, email, password });
     const api1 = `http://localhost:3001/data?username=${name}`
-    const response =  await axios.get(api1)
+    const response =  await axios.get(api1);
       if(response.data.length !==0 && response.data[0].username === name && response.data[0].password === password && response.data[0].email === email)
       {
-        // seterrorMessage(true)
+       
+        setuser(name);
         navigate('/')
+        alert("Login Successfully")
       }
       else{
-        // seterrorMessage(false)
+        
         navigate('/login')
+        alert("Users is wrong")
       }
   };
 
@@ -39,7 +47,8 @@ const Loginform = () => {
       color="grey"
       backgroundImage={backgroundPattern}
     >
-      <h2>Login Form</h2>
+      <h2>Already a user!</h2>
+      <h3>Please Login. </h3>
       <form  style={{ width: '300px' }}>
         <TextField
           label="Name"
@@ -69,6 +78,7 @@ const Loginform = () => {
           onChange={(e) => setPassword(e.target.value)}
           InputProps={{ style: { color: 'black' } }}
         />
+        <p>If you're a new customer ,please Sign UP</p>
         <Button type="submit" variant="contained" color="primary" style={{ marginTop: '20px' }} onClick={handleFormSubmit}>
           Submit
         </Button>

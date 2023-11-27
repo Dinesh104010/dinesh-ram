@@ -1,6 +1,6 @@
 // src/App.js
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Route, Routes, useNavigate } from 'react-router-dom';
 import Aboutus from './components/Aboutus';
 import Home from './components/Home';
 import Loginform from './components/Loginform';
@@ -12,9 +12,12 @@ import Jersy1 from './components/Jersy1';
 import Fitne from './components/Fitne';
 import Tropies from './components/Tropies';
 import Accessories from './components/Accessories';
-
+import { Provider } from 'react';
+import { userContext } from './components/Context';
 const App = () => {
+  const [user,setuser]=useState("");
   return (
+      <userContext.Provider value={[user, setuser]}>
     <Router>
       <Routes>
         <Route path="/login" element={<Loginform />} />
@@ -30,6 +33,7 @@ const App = () => {
         <Route path="/access" element={<Accessories></Accessories>}></Route>
       </Routes>
     </Router>
+    </userContext.Provider>
   );
 };
 

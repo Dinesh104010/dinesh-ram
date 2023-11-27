@@ -1,10 +1,11 @@
 import React from 'react'
 import "./FeaturedBrands.css"
 import { Link } from 'react-router-dom';
+import { Box, Stack } from '@mui/material';
 
 const About = () => {
   return (
-    
+    <>
     <div className='abo'>
       <h3>
         Welcome To
@@ -28,6 +29,10 @@ We are spending more time for planning than execution. Our products are good loo
          <h2>RULE THE GAME</h2>
          <Link to="/"><h4>BACK TO HOME</h4></Link>
     </div>
+    <div>
+     
+    </div>
+    </>
   );
 }
 

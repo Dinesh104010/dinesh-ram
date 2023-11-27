@@ -50,21 +50,21 @@ export default function Jersy1()
       </CardActions>
     
     </Card>
-
-    <Card sx={{ width:"1400px" }}>
+    <Card sx={{ width:"1500px"}}>
       
       <CardMedia component="img"
        height="300px" 
-       image="https://i.pinimg.com/474x/27/59/2a/27592a992de78e5c39c678a78c34cce3.jpg"
+       image="https://i.pinimg.com/474x/74/24/ac/7424ace53ffe2de085e7c2f6f1fb38ef.jpg"
 
       />
       <CardContent>
         <Typography variant="body2" color="black">
-        <h2><center>KING SIZED</center></h2>
+        BKDT Marketing Bowling Toy Set with 10 Bottles and 2 Balls Game for Kids - Multicolor
+BKDT Marketing Bowling Toy Set with 10 Bottles and 2 Balls Game for Kids - Multicolor
         </Typography>
       </CardContent>
       <div style={{fontFamily:"fantasy",fontSize:"20px"}}>
-      <center>PRICE: $100 &nbsp;&nbsp;&nbsp;&nbsp;</center> 
+      <center>PRICE: $25 &nbsp;&nbsp;&nbsp;&nbsp;<strike>$15</strike></center> 
       </div>
       <CardActions >
         <IconButton aria-label="add to favorites">
@@ -80,20 +80,21 @@ export default function Jersy1()
       </CardActions>
     
     </Card>
-    <Card sx={{ width:"1400px" }}>
+    <Card sx={{ width:"1500px"}}>
       
       <CardMedia component="img"
        height="300px" 
-       image="https://i.pinimg.com/474x/c9/3a/cd/c93acdb0a9fc4f6255a079e6db3d760b.jpg"
+       image="https://i.pinimg.com/474x/fa/6c/be/fa6cbe96fea34c4a5ad1e94f80d7d250.jpg"
 
       />
       <CardContent>
         <Typography variant="body2" color="black">
-        <h2><center>EL BICHO</center></h2>
+        BKDT Marketing Bowling Toy Set with 10 Bottles and 2 Balls Game for Kids - Multicolor
+BKDT Marketing Bowling Toy Set with 10 Bottles and 2 Balls Game for Kids - Multicolor
         </Typography>
       </CardContent>
       <div style={{fontFamily:"fantasy",fontSize:"20px"}}>
-      <center>PRICE: $100 &nbsp;&nbsp;&nbsp;&nbsp;</center> 
+      <center>PRICE: $25 &nbsp;&nbsp;&nbsp;&nbsp;<strike>$15</strike></center> 
       </div>
       <CardActions >
         <IconButton aria-label="add to favorites">
@@ -109,17 +110,21 @@ export default function Jersy1()
       </CardActions>
     
     </Card>
-    <Card sx={{ width:"1400px" }}>
+    <Card sx={{ width:"1500px"}}>
       
       <CardMedia component="img"
        height="300px" 
-       image="https://i.pinimg.com/474x/3a/4a/2b/3a4a2be63c8a014a1ba24e3ddc46dca2.jpg"/>
+       image="https://i.pinimg.com/474x/67/26/36/6726363794c36a30bf90854d6513c971.jpg"
+
+      />
       <CardContent>
-        <Typography variant="body2" color="black" >
-        <h2><center>LA PULGA</center></h2></Typography>
+        <Typography variant="body2" color="black">
+        BKDT Marketing Bowling Toy Set with 10 Bottles and 2 Balls Game for Kids - Multicolor
+BKDT Marketing Bowling Toy Set with 10 Bottles and 2 Balls Game for Kids - Multicolor
+        </Typography>
       </CardContent>
       <div style={{fontFamily:"fantasy",fontSize:"20px"}}>
-      <center>PRICE: $100 &nbsp;&nbsp;&nbsp;&nbsp;</center> 
+      <center>PRICE: $25 &nbsp;&nbsp;&nbsp;&nbsp;<strike>$15</strike></center> 
       </div>
       <CardActions >
         <IconButton aria-label="add to favorites">
