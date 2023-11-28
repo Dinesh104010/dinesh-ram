@@ -47,8 +47,9 @@ const Loginform = () => {
       color="grey"
       backgroundImage={backgroundPattern}
     >
-      <h2>Already a user!</h2>
-      <h3>Please Login. </h3>
+     
+      <h2>Already a user!, Please Log in</h2>
+      
       <form  style={{ width: '300px' }}>
         <TextField
           label="Name"
@@ -88,6 +89,9 @@ const Loginform = () => {
             Signup
           </Button>
         </Link>
+        <h1 style={{ color: '#B80000', fontSize: '71px',fontFamily:'viner hand itc' }}>ATHENs</h1>
+       
+
       </form>
     </Box>
   );

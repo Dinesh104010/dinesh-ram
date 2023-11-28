@@ -6,7 +6,7 @@ import CardActions from '@mui/material/CardActions';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import FavoriteIcon from '@mui/icons-material/Favorite';
-import ShareIcon from '@mui/icons-material/Share';
+
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 
 import { Button, Paper, Stack } from '@mui/material';

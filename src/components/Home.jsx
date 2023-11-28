@@ -33,7 +33,7 @@ const Home = () => {
        BRANDS
         </Button>
         </Link>
-        <TextField variant="outlined" label="Search" style={{ backgroundColor: 'white' ,height:"40px"}} />
+       
 
         <Link to="/login" >
         <Button variant="contained" color="primary" style={{backgroundColor:'#787878'}} onClick={handleLoginClick}>
